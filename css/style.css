@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(150deg, rgba(0, 255, 252, 1) 0%, rgba(248, 0, 255, 1) 100%);
+}
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  padding: 11vh;
+  border-radius: 45px;
+  background: linear-gradient(354deg, rgba(251, 251, 251, 0.5) 0%, rgba(251, 251, 251, 0.01) 70%);
+}
+.login img {
+  margin-left: 10vh;
+  margin-bottom: 5vh;
+}
+.login h1 {
+  margin-left: 9vh;
+  color: white;
+  margin-top: 0px;
+}
+.emailInput input {
+  border-radius: 12px;
+  width: 17rem;
+  height: 1.5rem;
+  padding: 1vh;
+  border: 1px solid white;
+  border-top: none;
+  background: none;
+}
+.passwordInput {
+  margin-top: 2rem;
+}
+.passwordInput input {
+  border-radius: 10px;
+  width: 17rem;
+  height: 1.5rem;
+  padding: 1vh;
+  border: 1px solid white;
+  border-top: none;
+  background: none;
+}
+.buttonLogin button {
+  position: absolute;
+  left: 35%;
+  margin-top: 2vh;
+  width: 17vh;
+  height: 4vh;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+.buttonLogin button a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .login {
+    padding: 8vh;
+  }
+  .emailInput input {
+    width: 16.5rem;
+    height: 1.5rem;
+  }
+  .passwordInput input {
+    width: 16.5rem;
+    height: 1.5rem;
+  }
+  .buttonLogin button {
+    width: 15vh;
+    height: 3.5vh;
+  }
+  .login img {
+    width: 80px;
+  }
+  .login h1 {
+    font-size: 1.5rem;
+    margin-left: 10vh;
+  }
+}
